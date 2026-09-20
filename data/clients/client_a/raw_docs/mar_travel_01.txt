@@ -1,0 +1,9 @@
+TravelCard Mobility Services AG
+Beleg-Nr: TC-88213-B
+Datum: 07/03/2026
+
+Fahrschein 1x ICE
+
+Preis (net to)      1 00,00 EUR
+enthaltene MwSt (7%)    7,00 EUR
+Gesamtbetrag        107,00 EUR

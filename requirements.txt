@@ -1,0 +1,23 @@
+# Ingestion (loader.py) + extraction (extract.py): plain-text/PDF reads and
+# ZUGFeRD/Factur-X structured-XML parsing.
+lxml==6.1.3
+pdfplumber==0.11.10
+pypdf==6.19.0
+
+# Output rendering: chart PNGs (charts.py) + HTML report -> PDF (render.py)
+matplotlib==3.11.2
+weasyprint==70.0
+
+# LLM few-shot prompting (draft.py) — Gemini via GEMINI_API_KEY
+google-genai==2.24.0
+python-dotenv==1.2.3
+
+# Human review UI (review_app.py)
+flask==3.1.3
+
+# Testing
+pytest==9.1.1
+
+# Placeholder — not yet imported by any code.
+# (jinja2 turned out unneeded: review_app.py's templates are small enough that
+# Flask's built-in render_template_string, already a Flask dependency, covers it.)

@@ -1,0 +1,11 @@
+NordicDev Consulting Oy
+Invoice No: ND-2026-0091
+Date: 22.07.2026
+
+Service: External code review
+
+Net amount: 1000.00 EUR
+VAT: 0.00 EUR
+  (Reverse charge - Art. 196 EU VAT Directive,
+   recipient liable for VAT in Germany)
+Total: 1000.00 EUR

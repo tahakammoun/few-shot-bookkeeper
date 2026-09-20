@@ -1,0 +1,10 @@
+Invoice No: 2026-002
+Date: 2026-04-10
+
+Bill To: Customer Y Ltd
+
+Consulting service, April 2026
+
+Net amount: 2000.00 EUR
+VAT (19%): 380.00 EUR
+Total: 2380.00 EUR

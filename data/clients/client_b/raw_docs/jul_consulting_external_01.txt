@@ -1,0 +1,10 @@
+Facture N° FR-2026-118
+Date : 14/07/2026
+
+Prestation : Étude de marché consommateurs
+
+Montant net : 800,00 EUR
+TVA : 0,00 EUR
+  (Autoliquidation - Article 196 Directive TVA UE,
+   le preneur est redevable de la TVA en Allemagne)
+Montant total : 800,00 EUR

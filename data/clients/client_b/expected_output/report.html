@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Einnahmenüberschussrechnung 2026 — Nordwind &amp; Coastline Beratung</title>
+<style>
+  :root {
+    --ink: #1f2937;
+    --muted: #6b7280;
+    --accent: #1e3a5f;
+    --line: #d1d5db;
+    --highlight-bg: #eef2f7;
+  }
+  body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: var(--ink);
+    margin: 40px 56px;
+    line-height: 1.5;
+  }
+  header {
+    border-bottom: 3px solid var(--accent);
+    padding-bottom: 12px;
+    margin-bottom: 24px;
+  }
+  header h1 {
+    font-size: 22px;
+    color: var(--accent);
+    margin: 0 0 4px 0;
+  }
+  header .meta {
+    color: var(--muted);
+    font-size: 13px;
+  }
+  h2 {
+    font-size: 15px;
+    color: var(--accent);
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 4px;
+    margin-top: 32px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  th, td {
+    text-align: right;
+    padding: 6px 8px;
+    border-bottom: 1px solid var(--line);
+  }
+  th:first-child, td:first-child {
+    text-align: left;
+  }
+  th {
+    color: var(--muted);
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  tr.total td {
+    font-weight: 700;
+    border-top: 2px solid var(--ink);
+    border-bottom: none;
+  }
+  .chart {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .chart img {
+    max-width: 420px;
+  }
+  .chart .caption {
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 4px;
+  }
+  .summary {
+    background: var(--highlight-bg);
+    border-radius: 6px;
+    padding: 16px 20px;
+    margin-top: 16px;
+  }
+  .summary table {
+    margin-top: 0;
+  }
+  .summary tr:last-child td {
+    font-weight: 700;
+    font-size: 15px;
+    border-top: 1px solid var(--line);
+    border-bottom: none;
+  }
+  .narrative {
+    margin-top: 20px;
+    font-size: 13px;
+  }
+  footer {
+    margin-top: 36px;
+    padding-top: 10px;
+    border-top: 1px solid var(--line);
+    font-size: 11px;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Einnahmenüberschussrechnung 2026</h1>
+  <div class="meta">Mandant: Client B — Markenstrategie &amp; Kommunikationsberatung · Zeitraum: 01.01.2026 – 31.12.2026</div>
+</header>
+
+<h2>A. Betriebseinnahmen</h2>
+<table>
+  <tr><th>Datum</th><th>Beleg</th><th>Netto</th><th>USt</th><th>Brutto</th></tr>
+  <tr><td>12.01.2026</td><td>Rechnung 2026-101</td><td>4.200,00&nbsp;€</td><td>798,00&nbsp;€</td><td>4.998,00&nbsp;€</td></tr>
+  <tr><td>09.04.2026</td><td>Invoice 2026-102</td><td>3.000,00&nbsp;€</td><td>570,00&nbsp;€</td><td>3.570,00&nbsp;€</td></tr>
+  <tr><td>20.08.2026</td><td>Rechnung 2026-103</td><td>2.500,00&nbsp;€</td><td>475,00&nbsp;€</td><td>2.975,00&nbsp;€</td></tr>
+  <tr><td>03.09.2026</td><td>Gutschrift 2026-G01 (Korrektur zu 2026-103)</td><td>-500,00&nbsp;€</td><td>-95,00&nbsp;€</td><td>-595,00&nbsp;€</td></tr>
+  <tr class="total"><td>Summe</td><td></td><td>9.200,00&nbsp;€</td><td>1.748,00&nbsp;€</td><td>10.948,00&nbsp;€</td></tr>
+</table>
+
+<h2>B. Betriebsausgaben nach Kategorie</h2>
+<table>
+  <tr><th>Kategorie</th><th>Netto</th><th>USt</th><th>Brutto</th></tr>
+  <tr><td>office_supplies</td><td>220,00&nbsp;€</td><td>41,80&nbsp;€</td><td>261,80&nbsp;€</td></tr>
+  <tr><td>travel</td><td>1.430,00&nbsp;€</td><td>100,10&nbsp;€</td><td>1.530,10&nbsp;€</td></tr>
+  <tr><td>software</td><td>588,00&nbsp;€</td><td>111,72&nbsp;€</td><td>699,72&nbsp;€</td></tr>
+  <tr><td>catering</td><td>333,33&nbsp;€</td><td>23,34&nbsp;€</td><td>356,67&nbsp;€</td></tr>
+  <tr><td>consulting_external</td><td>800,00&nbsp;€</td><td>0,00&nbsp;€</td><td>800,00&nbsp;€</td></tr>
+  <tr class="total"><td>Summe</td><td>3.371,33&nbsp;€</td><td>276,96&nbsp;€</td><td>3.648,29&nbsp;€</td></tr>
+</table>
+
+<div class="chart">
+  <img src="chart_expenses.png" alt="Betriebsausgaben nach Kategorie">
+  <div class="caption">Abb. 1 — Betriebsausgaben nach Kategorie (netto)</div>
+</div>
+
+<h2>C. Ergebnis</h2>
+<div class="summary">
+  <table>
+    <tr><td>Betriebseinnahmen (netto)</td><td>9.200,00&nbsp;€</td></tr>
+    <tr><td>Betriebsausgaben (netto)</td><td>3.371,33&nbsp;€</td></tr>
+    <tr><td>Jahresüberschuss</td><td>5.828,67&nbsp;€</td></tr>
+    <tr><td>USt-Zahllast</td><td>1.471,04&nbsp;€</td></tr>
+  </table>
+</div>
+
+<div class="narrative">
+  <p>
+    Das Geschäftsjahr 2026 schließt mit einem Überschuss von 5.828,67 €. Größter
+    Ausgabenposten waren Reisekosten (1.430,00 € netto), gefolgt von den
+    Fremdleistungen aus dem EU-Ausland (Reverse-Charge-Rechnung, 800,00 €
+    netto, keine deutsche USt fällig). Die Gutschrift vom 03.09.2026 korrigiert
+    den Leistungsumfang der Rechnung 2026-103 und wurde in voller Höhe von den
+    Betriebseinnahmen abgezogen.
+  </p>
+</div>
+
+<footer>
+  Alle Beträge automatisch aus den Originalbelegen berechnet und unabhängig
+  gegengeprüft. Struktur- und Textvorschlag durch KI-Modell, Zahlen
+  ausschließlich deterministisch ermittelt.
+</footer>
+
+</body>
+</html>

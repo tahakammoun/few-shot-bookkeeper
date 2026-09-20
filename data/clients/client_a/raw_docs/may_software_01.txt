@@ -1,0 +1,9 @@
+CloudSuite Software Solutions
+Invoice #: INV-2026-3391
+Date: 2026-05-12
+
+Team Plan - Monthly Subscription
+
+Subtotal: 200.00 EUR
+VAT (19%): 38.00 EUR
+Total Due: 238.00 EUR

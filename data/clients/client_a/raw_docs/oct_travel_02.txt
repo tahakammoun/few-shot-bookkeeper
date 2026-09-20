@@ -1,0 +1,9 @@
+DB Fernverkehr AG
+Fahrschein Beleg-Nr: 991823
+Datum: 05.10.2026
+
+1x Sparpreis
+
+Netto: 250,00 EUR
+enthaltene MwSt (7%): 17,50 EUR
+Gesamt: 267,50 EUR

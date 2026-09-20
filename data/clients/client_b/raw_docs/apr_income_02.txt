@@ -1,0 +1,10 @@
+Invoice No: 2026-102
+Date: 2026-04-09
+
+Bill To: Coastline Retail Partners Ltd
+
+Brand Strategy Consulting, April 2026
+
+Net amount: 3000.00 EUR
+VAT (19%): 570.00 EUR
+Total: 3570.00 EUR

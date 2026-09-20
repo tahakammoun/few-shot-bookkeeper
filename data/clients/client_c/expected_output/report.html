@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Einnahmenüberschussrechnung 2026 — Client C</title>
+<style>
+  :root {
+    --ink: #1f2937;
+    --muted: #6b7280;
+    --accent: #1e3a5f;
+    --line: #d1d5db;
+    --highlight-bg: #eef2f7;
+  }
+  body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: var(--ink);
+    margin: 40px 56px;
+    line-height: 1.5;
+  }
+  header {
+    border-bottom: 3px solid var(--accent);
+    padding-bottom: 12px;
+    margin-bottom: 24px;
+  }
+  header h1 {
+    font-size: 22px;
+    color: var(--accent);
+    margin: 0 0 4px 0;
+  }
+  header .meta {
+    color: var(--muted);
+    font-size: 13px;
+  }
+  h2 {
+    font-size: 15px;
+    color: var(--accent);
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 4px;
+    margin-top: 32px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  th, td {
+    text-align: right;
+    padding: 6px 8px;
+    border-bottom: 1px solid var(--line);
+  }
+  th:first-child, td:first-child {
+    text-align: left;
+  }
+  th {
+    color: var(--muted);
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  tr.total td {
+    font-weight: 700;
+    border-top: 2px solid var(--ink);
+    border-bottom: none;
+  }
+  .footnote {
+    font-size: 11px;
+    color: var(--muted);
+    margin-top: 6px;
+  }
+  .chart {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .chart img {
+    max-width: 420px;
+  }
+  .chart .caption {
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 4px;
+  }
+  .summary {
+    background: var(--highlight-bg);
+    border-radius: 6px;
+    padding: 16px 20px;
+    margin-top: 16px;
+  }
+  .summary table {
+    margin-top: 0;
+  }
+  .summary tr:last-child td {
+    font-weight: 700;
+    font-size: 15px;
+    border-top: 1px solid var(--line);
+    border-bottom: none;
+  }
+  .narrative {
+    margin-top: 20px;
+    font-size: 13px;
+  }
+  footer {
+    margin-top: 36px;
+    padding-top: 10px;
+    border-top: 1px solid var(--line);
+    font-size: 11px;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Einnahmenüberschussrechnung 2026</h1>
+  <div class="meta">Mandant: Client C — Texterstellung &amp; Content-Beratung (Kleinunternehmer § 19 UStG) · Zeitraum: 01.01.2026 – 31.12.2026</div>
+</header>
+
+<h2>A. Betriebseinnahmen</h2>
+<table>
+  <tr><th>Datum</th><th>Beleg</th><th>Betrag</th></tr>
+  <tr><td>15.01.2026</td><td>Rechnung 2026-201</td><td>1.200,00&nbsp;€</td></tr>
+  <tr><td>11.04.2026</td><td>Invoice 2026-202</td><td>950,00&nbsp;€</td></tr>
+  <tr><td>21.08.2026</td><td>Rechnung 2026-203</td><td>1.500,00&nbsp;€</td></tr>
+  <tr class="total"><td>Summe</td><td></td><td>3.650,00&nbsp;€</td></tr>
+</table>
+<div class="footnote">Gemäß § 19 UStG (Kleinunternehmerregelung) wird keine Umsatzsteuer ausgewiesen; Betrag = Nettobetrag = Bruttobetrag.</div>
+
+<h2>B. Betriebsausgaben nach Kategorie</h2>
+<table>
+  <tr><th>Kategorie</th><th>Betrag</th></tr>
+  <tr><td>office_supplies</td><td>107,10&nbsp;€</td></tr>
+  <tr><td>travel</td><td>160,50&nbsp;€</td></tr>
+  <tr><td>software</td><td>47,60&nbsp;€</td></tr>
+  <tr><td>catering</td><td>64,20&nbsp;€</td></tr>
+  <tr class="total"><td>Summe</td><td>379,40&nbsp;€</td></tr>
+</table>
+<div class="footnote">Beträge in Bruttohöhe (inkl. nicht abzugsfähiger Vorsteuer) — als Kleinunternehmer besteht kein Vorsteuerabzug, daher zählt der volle Rechnungsbetrag als Betriebsausgabe.</div>
+
+<div class="chart">
+  <img src="chart_expenses.png" alt="Betriebsausgaben nach Kategorie">
+  <div class="caption">Abb. 1 — Betriebsausgaben nach Kategorie (brutto)</div>
+</div>
+
+<h2>C. Ergebnis</h2>
+<div class="summary">
+  <table>
+    <tr><td>Betriebseinnahmen</td><td>3.650,00&nbsp;€</td></tr>
+    <tr><td>Betriebsausgaben</td><td>379,40&nbsp;€</td></tr>
+    <tr><td>Jahresüberschuss</td><td>3.270,60&nbsp;€</td></tr>
+    <tr><td>USt-Zahllast</td><td>entfällt (§ 19 UStG)</td></tr>
+  </table>
+</div>
+
+<div class="narrative">
+  <p>
+    Das Geschäftsjahr 2026 schließt mit einem Überschuss von 3.270,60 €. Als
+    Kleinunternehmer nach § 19 UStG wurde auf keiner Ausgangsrechnung
+    Umsatzsteuer ausgewiesen; im Gegenzug entfällt auch der Vorsteuerabzug auf
+    Eingangsrechnungen, weshalb Betriebsausgaben hier in Bruttohöhe
+    ausgewiesen werden. Größter Ausgabenposten war der Bereich Reisekosten
+    (160,50 €), das Gesamtausgabenvolumen blieb insgesamt gering.
+  </p>
+</div>
+
+<footer>
+  Alle Beträge automatisch aus den Originalbelegen berechnet und unabhängig
+  gegengeprüft. Struktur- und Textvorschlag durch KI-Modell, Zahlen
+  ausschließlich deterministisch ermittelt.
+</footer>
+
+</body>
+</html>

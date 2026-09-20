@@ -1,0 +1,9 @@
+WriteFlow SaaS Inc.
+Invoice #: WF-2026-2207
+Date: 2026-06-09
+
+Monthly Plan - June 2026
+
+Subtotal: 40.00 EUR
+VAT (19%): 7.60 EUR
+Total Due: 47.60 EUR

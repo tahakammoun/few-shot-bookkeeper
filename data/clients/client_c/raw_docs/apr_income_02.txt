@@ -1,0 +1,10 @@
+Invoice No: 2026-202
+Date: 2026-04-11
+
+Bill To: Halvorsen Consulting AS
+
+Copywriting service, April 2026
+
+Net amount: 950.00 EUR
+VAT: 0.00 EUR (no VAT charged - small business exemption, §19 UStG)
+Total: 950.00 EUR

@@ -1,0 +1,9 @@
+Feinkost Alberti Catering GmbH
+Rechnung: 2026-CAT-233
+Datum: 09.09.2026
+
+Verpflegung Kundentermin
+
+Zwischensumme (netto): 60,00 EUR
+Umsatzsteuer (7%): 4,20 EUR
+Gesamtbetrag: 64,20 EUR
