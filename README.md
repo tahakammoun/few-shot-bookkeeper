@@ -216,3 +216,25 @@ python -m src.build_report client_a tests/fixtures/client_a_draft_placeholder_on
 # once draft.py produces a real outputs/client_a_draft.html:
 python -m src.build_report client_a outputs/client_a_draft.html
 ```
+
+## Next steps
+
+- **A real evaluation of the drafter: bigger dataset, better model.** As noted above,
+  two worked examples and one model call only prove the pipeline mechanism works, not
+  that the drafted structure is actually good. Testing this properly needs a larger set
+  of worked examples — more clients, more structural variation — and a stronger model
+  than the current default.
+- **Let users upload documents through the review UI, not just read them from disk.**
+  `review_app.py` currently only works with clients whose raw docs already exist under
+  `data/clients/`. The natural next step is an upload flow: a user drops in a new
+  client's raw documents through the browser, the pipeline runs the same as it does now,
+  and once a human reviews and approves the resulting report, the UI offers to promote
+  that client — its raw docs plus the approved output — into a new worked example
+  alongside `client_b`/`client_c`. That turns every human-approved report into a
+  candidate few-shot example instead of leaving the example set fixed at two.
+
+## A note on how this was built
+
+This project was built with AI-assisted coding (Claude Code). The architecture
+decisions, test data, and the "never trust the model's digits" design throughout are
+deliberate choices made along the way, not defaults the tool picked on its own.
